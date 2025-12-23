@@ -18,24 +18,19 @@ public class Ejercicio_3_3 {
 	public static void main(String[] args) {
 		
 		// float floatValue(): Convierte un objeto Double al primitivo float.
-		@SuppressWarnings("removal")
 		Double d = new Double(23.45);
 		float f = d.floatValue();
 		System.out.println(f);
 		
 		// boolean isInfinite(): Indica si el valor del objeto Double es infinito.
-		@SuppressWarnings("removal")
 		Double d1 = new Double(1.0/0.0);
 		System.out.println(d1.isInfinite()); // true
-		@SuppressWarnings("removal")
 		Double d2 = new Double (123.45);
 		System.out.println(d2.isInfinite()); // false
 		
 		// boolean isNaN(): Indica si el valor de objeto Double es "NotaNumber"
-		@SuppressWarnings("removal")
 		Double d3 = new Double(0.0/0.0);
 		System.out.println(d3.isNaN()); // true
-		@SuppressWarnings("removal")
 		Double d4 = new Double(5.4);
 		System.out.println(d4.isNaN());
 		
